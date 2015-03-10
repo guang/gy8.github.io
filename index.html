@@ -1,42 +1,19 @@
 ---
-layout: default
-title: Home
 ---
 
-<!-- Show last 5 posts here -->
-{% for post in paginator.posts %}
-	<article>
-
-        <header>
-            <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
-            <span class="date"><i class="icon-clock"></i><time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time></span><br/>
-            <span class="category"><i class="icon-tag"></i> {{ post.categories | category_links }}</span><br/>
-            <span class="author"><i class="icon-user"></i> {% if post.author %}{{post.author}}{% else %}{{site.author}}{% endif%}</span>
-        </header>
-	
-		<div class="entry">{{ post.excerpt }}</div>
-
-	</article>
+{% for post in site.posts limit:site.data.theme.num_home_posts %}
+<div class="post-header-home">
+  <h1 class="post-title-home">
+    <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
+  </h1>
+  {% include post-header-home.html %}
+</div>
+<div class="post-excerpt-home">
+  {{ post.excerpt }}
+  <p class="text-right"><a href="{{ post.url | prepend:site.baseurl }}">Continue Reading &rarr;</a></p>
+</div>
 {% endfor %}
-
-
-<div id="paginator">
-    {% if paginator.next_page %}
-            <a href="{{site.baseurl}}/page{{paginator.next_page}}">
-            &laquo; Older Posts</a>
-    {% endif %}
-
-    {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-                <span class="more">
-                <a href="{{site.baseurl}}/">
-                Newer Posts &raquo; </a>
-                </span>
-        {% else %}
-                <span class="more">
-                <a href="{{site.baseurl}}/page{{paginator.previous_page}}">
-                Newer Posts &raquo; </a>
-                </span>
-        {% endif %}
-    {% endif %}
+<hr>
+<div class="home-read-more">
+  <a href="{{ "/archive" | prepend:site.baseurl }}" class="btn btn-primary btn-block btn-lg">View All {{ site.posts | size }} Articles →</a>
 </div>

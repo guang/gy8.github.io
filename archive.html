@@ -1,16 +1,19 @@
 ---
-layout: page
 title: Archive
+permalink: "archive/index.html"
 ---
-
-    <section>
-        <table>
-            {% for post in site.posts %}
-            <tr>
-                <td><i class="icon-clock"></i> <time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time></td>  
-                <td><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></td>
-                <td><span class="category"><i class="icon-tag"></i> {{post.categories | category_links}}</span></td>
-            </tr>
-    	{% endfor %}
-        </table>
-    </section>
+<div class="page-archive">
+{% for post in site.posts %}
+  {% assign post_month_year = post.date | date: "%B %Y" %}
+  {% assign newer_post_month_year = post.next.date | date: "%B %Y" %}
+  {% if post_month_year != newer_post_month_year %}
+    <h3 class="section-header-archive">
+      {{ post_month_year }}
+    </h3>
+  {% endif %}
+  <p>
+    <a href="{{ post.url | prepend:site.baseurl}}" class="post-title-archive">{{ post.title }}</a>
+    <small class="text-muted">{{ post.date | date_to_string }}</small>
+  </p>
+{% endfor %}
+</div>
