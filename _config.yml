@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Guang's Blog Yo
 locale:           en_US
 url:              
 
@@ -26,11 +26,14 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
+  name: Guang Yang
+  avatar: guangsmiley.jpg
+  bio: >
+         With a background in computational mathematics, I am interested in learning 
+         and applying data engineering and data science.
+
+  email: garry.yangguang@gmail.com
+  disqus-shortname:
   twitter: #username
   facebook: #username
   google:
@@ -40,9 +43,9 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: gy8
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: gyang8
   xing: #username
   instagram: #username
   lastfm: #username
