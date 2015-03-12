@@ -17,7 +17,6 @@ image:
 data engineering and data science.
 
 
-<!---
 ## Education
 - University of California, Berkeley
   - M.S. in Industrial Engineering & Operations Research
@@ -31,7 +30,7 @@ data engineering and data science.
   - Completed Courses in Mathematics and Actuarial Science
   - August 2009 - May 2011
 
-
+<!---
 ## Awards
 - UC Berkeley Graduate Fellowship 2013
 - CAAM-Chevron Undergraduate Research Prize 2013
