@@ -43,7 +43,6 @@ data engineering and data science.
   providing detailed feedbacks for student assignments in the course Data Science 203
   at UC Berkeley iSchool.
 
-<!---
 ## Publications
 - A. Garg, T. Siauw, **G. Yang** , S. Patil, A. Cunha, I. Hsu, J. Pouliot, A. Atamtürk,
   K. Goldberg. *"Exact Reachability Analysis for Planning Skew-Line Needle Arrangements for
@@ -53,4 +52,3 @@ data engineering and data science.
 - T. Massaro, S. Lenhart, M. Spence, C. Drakes, **G. Yang** , F. Agusto, R. Johnson,
   B. Whitlock, A. Wadhwa, S. Eda. *"Modeling for Cost Analysis of Johne's Disease Control
   Based on EVELISA Testing"* . Journal of Biological Systems 21, no. 04. (2013)
--->
