@@ -30,13 +30,11 @@ data engineering and data science.
   - Completed Courses in Mathematics and Actuarial Science
   - August 2009 - May 2011
 
-<!---
 ## Awards
 - UC Berkeley Graduate Fellowship 2013
 - CAAM-Chevron Undergraduate Research Prize 2013
 - Meritorious winner, COMAP Mathematical Contest in Modeling 2011
 - 1st Place, Rice ASME Engineering Design Competitions 2011, 2012
-
 
 ## Projects
 - [stargazer](https://www.github.com/gy8/stargazer), a data pipeline for doing map
@@ -45,6 +43,7 @@ data engineering and data science.
   providing detailed feedbacks for student assignments in the course Data Science 203
   at UC Berkeley iSchool.
 
+<!---
 ## Publications
 - A. Garg, T. Siauw, **G. Yang** , S. Patil, A. Cunha, I. Hsu, J. Pouliot, A. Atamtürk,
   K. Goldberg. *"Exact Reachability Analysis for Planning Skew-Line Needle Arrangements for
