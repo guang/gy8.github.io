@@ -17,6 +17,7 @@ image:
 data engineering and data science.
 
 
+<!---
 ## Education
 - University of California, Berkeley
   - M.S. in Industrial Engineering & Operations Research
@@ -54,3 +55,4 @@ data engineering and data science.
 - T. Massaro, S. Lenhart, M. Spence, C. Drakes, **G. Yang** , F. Agusto, R. Johnson,
   B. Whitlock, A. Wadhwa, S. Eda. *"Modeling for Cost Analysis of Johne's Disease Control
   Based on EVELISA Testing"* . Journal of Biological Systems 21, no. 04. (2013)
+-->
